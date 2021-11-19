@@ -8,7 +8,7 @@
 
 body{
     margin: 0;
-    padding-top: 80px;
+    padding-top: 70px;
 }
 .clearfix::after{
     content: '';
@@ -16,20 +16,28 @@ body{
     clear: both;
 }
 .container-big{
-    width: 1240px;
+    width: 1200px;
     margin: 0 auto;
     height: 100%;
-    background-color: red;
+    
 }
 /* width col */
+.col-35{
+    width: 35%;
+}
 .col-50{
     width:50%;
 }
+
+.col-65{
+    width: 65%;
+}
+
 /* height */
 .h-80p{
     height: 80px;
 }
-.h-55{
+.h-60{
     height:55%;
 }
 /* float */
@@ -38,10 +46,23 @@ body{
 }
 
 /* font-size */
+.f-12{
+    font-size: 12px;
+}
+.f-15{
+    font-size: 15px;
+}
 .f-90{
     font-size: 90px;
 }
 /* text-align */
 .t-right{
     text-align: right;
+}
+/* Tasti */
+.btn{
+    padding: 7px 18px;
+    color: white;
+    background-color:#0061FF;
+    text-decoration: none;
 }
