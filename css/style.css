@@ -1,12 +1,51 @@
-/* Header */
-header{
-    background-color: red;
+/* Top Header */
+.top-header{
+ 
     height: 80px;
     width: 100%;
-    text-align: center;
-    
+    position: fixed;
+    top: 0;
+    left: 0; 
 }
-/* Da rimuovere */
-.col-50{
-    background-color: green;
-   }
+#logo{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+.menu-left, .menu-right{
+    display: inline-block;
+}
+.top-header ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.top-header ul a{
+    text-decoration: none;
+    color: #000;
+    line-height: 80px;
+    font-size: 15px;
+}
+.menu-right li:last-child a{
+    color: white;
+    background-color:#0061FF;
+    padding: 5px 20px;
+}
+
+
+   
+/* Jumbotron */
+.jumbotron{
+    height: 640px;
+    background-color: greenyellow;
+}
+#jumbo-title{
+    height: 45%;
+    /* da rimuovere */
+    background-color: royalblue; 
+}
+#jumbo-image{
+    background-color: salmon;
+}
+#jumbo-text{
+    background-color: sienna;
+}
