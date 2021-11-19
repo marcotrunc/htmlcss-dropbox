@@ -1,0 +1,12 @@
+/* Header */
+header{
+    background-color: red;
+    height: 80px;
+    width: 100%;
+    text-align: center;
+    
+}
+/* Da rimuovere */
+.col-50{
+    background-color: green;
+   }
