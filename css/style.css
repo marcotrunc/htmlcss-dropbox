@@ -4,6 +4,7 @@
     height: 70px;
     width: 100%;
     position: fixed;
+    z-index: 2;
     top: 0;
     left: 0; 
 }
@@ -36,7 +37,7 @@
    
 /* Jumbotron */
 .jumbotron{
-    height: 650px;
+    height: 680px;
     background-color: #B4D0E7;
 }
 #jumbo-title{
@@ -77,7 +78,104 @@
     width: 100%;
     position: absolute;
     right: -10px;
-    
-  
-
 }
+/************************/
+
+/* Choose Plane style */
+/* General choose plane */
+.chose-plane{
+    margin-top: 170px;
+}
+#plane-title{
+    height: 10%;
+    padding-top: 30px;
+    font-size: 27px;
+}
+.radio{
+    height: 5%;
+}
+
+.col-30-m, .enterprise .container-small{
+    border: 1px solid #d3d3d3;
+}
+/* Inside column */
+.it-col{
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-bottom: 1px solid #d3d3d6;
+}
+/* Divisione colonne */
+.col-30-m{
+    width: calc(100% / 3 - 40px);
+    height: 900px;
+    margin: 0 20px;
+    float: left;
+}
+.row{
+    margin: 0px -20px;
+}
+/************************/
+.col-30-m hr{
+    display: inline-block;
+    width: 45px;
+}
+
+.col-title, .important-point, .enterprise-title{
+    padding-top:20px;
+}
+.col-title>*{
+    margin-bottom: 10px;
+}
+
+.col-30-m ul{
+    list-style: none;
+    list-style-position: outside;
+}
+
+.col-30-m li{
+    margin-bottom: 12px; 
+}
+
+.col-30-m li>*{
+    font-size: 13px;
+}
+
+.column-btn .or{
+    display: inline-block;
+}
+.important-point li i{
+    color:#0061ff;
+}
+/* Enterpise */
+.enterprise{
+    height: 200px;
+    margin-top:40px;
+    margin-bottom: 140px;
+   
+}
+.enterprise .enterprise-title{
+    padding:20px 25px;
+}
+.enterprise-title .btn{
+    width: 275px;
+    text-align: center;
+}
+
+/* Section Partner */
+
+.partner .partner-text{
+    
+    margin-top: 20px;
+    padding-left: 40px;
+}
+.partner-text>*{
+    margin-bottom: 20px;
+}
+.partner-text a{
+    padding: 7px 18px;
+    color: #000;
+    text-decoration: none;
+    border: 1px solid black;
+}
+/* Section more operations */
