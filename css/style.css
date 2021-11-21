@@ -86,24 +86,18 @@
 .choose-plane{
     margin-top: 170px;
 }
-#plane-title{
+.title-paragraph{
     height: 10%;
-    padding-top: 30px;
-    font-size: 27px;
+    margin-bottom: 30px;
+
 }
 .radio{
     height: 5%;
+    margin-bottom: 25px;
 }
 
 .choose-plane .col-30, .enterprise .container-small{
     border: 1px solid #d3d3d3;
-}
-/* Inside column */
-.it-col{
-    height: 35px;
-    text-align: center;
-    line-height: 35px;
-    border-bottom: 1px solid #d3d3d6;
 }
 /* Divisione colonne */
 .col-30{
@@ -115,6 +109,13 @@
     margin: 0px -20px;
 }
 /************************/
+/* Inside column */
+.it-col{
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    border-bottom: 1px solid #d3d3d6;
+}
 .col-30 hr{
     display: inline-block;
     width: 45px;
@@ -128,7 +129,7 @@
 }
 
 .col-30 ul{
-    list-style: none;
+    list-style 
     list-style-position: outside;
 }
 
