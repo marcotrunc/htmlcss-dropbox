@@ -129,8 +129,9 @@
 }
 
 .col-30 ul{
-    list-style 
+    list-style-image:url('../img/check-solid.svg');
     list-style-position: outside;
+    
 }
 
 .col-30 li{
@@ -144,9 +145,7 @@
 .column-btn .or{
     display: inline-block;
 }
-.important-point li i{
-    color:#0061ff;
-}
+
 /* Enterpise */
 .enterprise{
     height: 200px;
@@ -216,10 +215,15 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    object-fit: contain;
 }
 .banner-column-center img{
     width: 150px;
     height: 75px;     
+}
+.banner-square{
+    border: none;
+    transition: border 1s;
 }
 .banner-square:active{
     border: 10px solid whitesmoke;
