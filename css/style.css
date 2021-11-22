@@ -263,6 +263,9 @@
     display: inline-block;
     font-weight: bold;
 }
+.requests p{
+    display: none;
+}
 
 /****FOOTER****/
 footer{
@@ -300,7 +303,7 @@ footer .footer-bottom{
 .col-title, .important-point, .enterprise-title{
     padding-top:20px;
 }
-/****Bonus****/
+/****Bonus sub-menu****/
 .menu-right li:first-child{
     position: relative;
 }
@@ -334,4 +337,28 @@ footer .footer-bottom{
 }
 #supporto li:hover a{
     background-color: #ddd;
+}
+/*bonus requests*/
+.container-small .ask:hover p{
+    margin-top: 10px;
+    display: block;
+    color: lightgrey;
+    line-height: 18px;
+}
+.container-small .ask:hover{
+    height: 140px;
+    line-height: 30px;
+}
+.container-small .ask:hover span{
+    line-height: 40px;
+}
+.container-small .ask:hover .fa-chevron-down{
+    display: none;
+}
+.container-small .ask:hover .fa-chevron-up{
+    visibility: visible;
+    cursor: pointer;
+}
+.fa-chevron-up{
+    visibility: hidden;
 }
