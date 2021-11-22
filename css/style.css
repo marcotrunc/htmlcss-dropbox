@@ -17,6 +17,7 @@
     display: inline-block;
 }
 .top-header ul li{
+    list-style-type: none;
     display: inline-block;
     margin: 0 20px;
 }
@@ -29,21 +30,17 @@
 .menu-right li:last-child a{
     color: white;
 }
-.menu-right li:last-child a:hover{
-    opacity: 0.8;
+.btn:hover{
+   filter: brightness(1.8);
 }
-
-
    
-/* Jumbotron */
+/****JUMBOTRON****/
 .jumbotron{
     height: 680px;
     background-color: #B4D0E7;
 }
 #jumbo-title{
     height: 40%;
-    /* da rimuovere */
-    background-color:#B4D0E7;
     padding-top: 65px;
     margin-bottom: 30px;
 }
@@ -72,7 +69,6 @@
     background-color: #B4D0E7;
     padding-top: 10px;
     position: relative;
-   
 }
 #jumbo-image img{
     width: 100%;
@@ -81,25 +77,8 @@
 }
 /************************/
 
-/* Choose Plane style */
-/* General choose plane */
-.choose-plane{
-    margin-top: 170px;
-}
-.title-paragraph{
-    height: 10%;
-    margin-bottom: 30px;
-
-}
-.radio{
-    height: 5%;
-    margin-bottom: 25px;
-}
-
-.choose-plane .col-30, .enterprise .container-small{
-    border: 1px solid #d3d3d3;
-}
-/* Divisione colonne */
+/******SECTION CHOOSE PLANE******/
+/* Division of columns */
 .col-30{
     width: calc(100% / 3 - 40px);
     margin: 0 20px;
@@ -108,7 +87,19 @@
 .row{
     margin: 0px -20px;
 }
-/************************/
+/* General choose plane */
+.choose-plane{
+    margin-top: 170px;
+}
+.title-paragraph{
+    height: 10%;
+    margin-bottom: 30px;
+}
+.radio{
+    height: 5%;
+    margin-bottom: 25px;
+}
+
 /* Inside column */
 .it-col{
     height: 35px;
@@ -116,55 +107,47 @@
     line-height: 35px;
     border-bottom: 1px solid #d3d3d6;
 }
+.col-title>*{
+    margin-bottom: 10px;
+}
+
+.functions ul{
+    list-style-type: none;
+    list-style-position: outside;   
+}
+.important-point ul{
+    list-style-image:url('../img/check-solid.svg');
+    list-style-position: outside;   
+}
+.col-30 li{
+    margin-bottom: 12px;
+    
+}
+.col-30 li>*{
+    font-size: 13px;
+    line-height: 13px;
+    vertical-align: baseline;
+}
+.column-btn .or {
+    display: inline-block;
+}
 .col-30 hr{
     display: inline-block;
     width: 45px;
 }
 
-.col-title, .important-point, .enterprise-title{
-    padding-top:20px;
-}
-.col-title>*{
-    margin-bottom: 10px;
-}
-
-.col-30 ul{
-    list-style-image:url('../img/check-solid.svg');
-    list-style-position: outside;
-    
-}
-
-.col-30 li{
-    margin-bottom: 12px; 
-}
-
-.col-30 li>*{
-    font-size: 13px;
-}
-
-.column-btn .or{
-    display: inline-block;
-}
-
-/* Enterpise */
+/****SECTION ENTERPRISE****/
 .enterprise{
     height: 200px;
     margin-top:40px;
-    margin-bottom: 140px;
-   
+    margin-bottom: 140px;   
 }
 .enterprise .enterprise-title {
     padding:20px 25px;
 }
-.btn-large{
-    width: 275px;
-    text-align: center;
-}
 
-/* Section Partner */
-
+/****SECTION PARTNER****/
 .partner .partner-text{
-    
     margin-top: 20px;
     padding-left: 40px;
 }
@@ -177,14 +160,13 @@
     text-decoration: none;
     border: 1px solid black;
 }
-/* Section more operations */
+
+/****SECTION MORE OPERATIONS****/
  h2{
     font-size: 2.5em;
 }
-/* Section team members */
-.subtitle-paragraph a{
-    color: #0061FF;
-}
+
+/****SECTION TEAM MEMBERS****/
 .team-members .banner{
     height: 450px;
 } 
@@ -206,6 +188,7 @@
     width: 30%;
     height: 450px;
 }
+
 /* inside banner */
 .banner-square img{
     width: 150px;
@@ -228,7 +211,8 @@
 .banner-square:active{
     border: 10px solid whitesmoke;
 }
-/* free trial */
+
+/****DROPBOX IN COMPANY*****/
 .free-trial{
     background-color:#B4D0E7;
     color: #61082B;
@@ -260,7 +244,8 @@
     background-color: white;
     color: #000;
 }
-/* requests style */
+
+/****REQUESTS****/
 .requests{
     height: 625px;
     padding: 120px 0;
@@ -275,7 +260,8 @@
     display: inline-block;
     font-weight: bold;
 }
-/* Footer */
+
+/****FOOTER****/
 footer{
     height: 450px;
     margin: 0;
@@ -283,20 +269,14 @@ footer{
     color:white;
     padding: 90px 0;
 }
-
-footer ul{
-    list-style: none;
-}
 footer ul li{
     list-style: none;
     font-size: 13px;
     margin-bottom: 10px;
 }
-
 footer .container-big .col-20{
     margin-bottom: 40px;
 }
-
 footer hr{
     display: inline-block;
     height: 1px;
@@ -308,4 +288,12 @@ footer .footer-bottom{
     margin-top: 40px;
     font-size: 13px;
     color: #666666;;
+}
+
+/* Border and padding-top Standard */
+.choose-plane .col-30, .enterprise .container-small{
+    border: 1px solid #d3d3d3;
+}
+.col-title, .important-point, .enterprise-title{
+    padding-top:20px;
 }
