@@ -206,7 +206,7 @@
 }
 .banner-square{
     border: none;
-    transition: border 1s;
+    transition: border 1s 1ms;
 }
 .banner-square:active{
     border: 10px solid whitesmoke;
