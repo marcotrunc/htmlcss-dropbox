@@ -147,6 +147,11 @@ img{
     color: white;
     background-color:#0061FF;
     text-decoration: none;
+    text-align: center;
+}
+.btn-large{
+    width: 275px;
+    text-align: center;
 }
 /* Display */
 .d-ib{
@@ -155,6 +160,9 @@ img{
 /* Color */
 .fc-grey{
     color:#74828e;
+}
+.fc-blue{
+    color:#0061FF;
 }
 /* bck-color */
 .bck-green{
@@ -183,4 +191,20 @@ img{
 }
 
 
-    
+/* Icon */
+.user-regular{
+    list-style-image:url('../img/user-regular.svg') ;
+}
+.user-plus{
+    list-style-image:url('../img/user-plus-solid.svg') ;
+}
+.folder{
+    list-style-image: url('../img/folder-regular.svg');
+}
+.smile{
+    list-style-image: url('../img/smile-regular.svg');
+}
+.pencil{
+    list-style-image:url('../img/pencil-alt-solid.svg') ;
+  
+}
